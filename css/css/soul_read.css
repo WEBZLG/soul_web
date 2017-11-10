@@ -1,0 +1,184 @@
+/*图书列表*/
+
+.book_list,
+.hot_left {
+	width: 20%;
+	float: left;
+}
+
+.book_list>ul>li {
+	width: 100%;
+	background-color: #ffd5d5;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.book_list>ul>li:nth-of-type(even) {
+	background-color: #ffe7e7;
+}
+
+.book_list>ul>li a {
+	display: block;
+	width: 100%;
+}
+
+.book_list>ul>li a .num {
+	font-size: 12px;
+	color: #666;
+}
+
+
+/*轮播*/
+
+.ban_right {
+	display: inline-block;
+	width: 80%;
+	float: left;
+}
+
+#banner {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#banner_list img {
+	border: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#banner_bg {
+	position: absolute;
+	bottom: 0;
+	background-color: #000;
+	height: 30px;
+	filter: Alpha(Opacity=30);
+	opacity: 0.3;
+	z-index: 1000;
+	cursor: pointer;
+	width: 478px;
+}
+
+#banner_info {
+	position: absolute;
+	bottom: 0;
+	left: 5px;
+	height: 22px;
+	color: #fff;
+	z-index: 1001;
+	cursor: pointer
+}
+
+#banner_text {
+	position: absolute;
+	width: 120px;
+	z-index: 1002;
+	right: 3px;
+	bottom: 3px;
+}
+
+#banner ul {
+	position: absolute;
+	list-style-type: none;
+	filter: Alpha(Opacity=80);
+	opacity: 0.8;
+	z-index: 1002;
+	margin: 0;
+	padding: 0;
+	bottom: 3px;
+	right: 5px;
+}
+
+#banner ul li {
+	padding: 0px 8px;
+	float: left;
+	display: block;
+	color: #FFF;
+	background: #6f4f67;
+	cursor: pointer;
+	border: 1px solid #333;
+}
+
+#banner ul li.on {
+	background-color: #000;
+}
+
+#banner_list a {
+	position: absolute;
+}
+
+
+/*热读榜+精品推荐*/
+/*左*/
+ .hot_title {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: #fff096;
+}
+
+.hot_left .hot_list li {
+	width: 100%;
+	position: relative;
+	padding: 13px 0;
+	background-color: #ffd5d5;
+}
+
+.hot_left .hot_list li:nth-last-of-type(even) {
+	background-color: #ffe7e7;
+}
+
+.hot_left .hot_list .img {
+	display: block;
+	float: left;
+	width: 75px;
+	height: 100px;
+	overflow: hidden;
+	padding: 0 10px 0 30px;
+}
+
+.hot_left .info {
+	overflow: hidden;
+}
+
+.hot_left  .hot {
+	position: absolute;
+	top: 13px;
+	left: 10px;
+	width: 20px;
+	text-align: center;
+	font: 700 14px/20px 'Century Gothic';
+}
+.hot_left .item .author{
+	display: block;
+	padding-left: 30px;
+}
+/*右*/
+.hot_right{
+	float: left;
+    width: 80%;
+}
+.books ul>li{
+	float: left;
+}
+.books .item{
+	width: 140px;
+	display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	text-align: center;
+	margin: 0px 10px  10px;
+	box-shadow: 0px 1px 10px 0px #ccc;
+}
+.books .item .img{
+	display: block;
+	width: 100px;
+	height: 130px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 130px;
+}

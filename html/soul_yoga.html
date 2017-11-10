@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>瑜伽</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<script>
+				$('header').load('../header.html #header',function(){
+					$(".menu").find("li").eq(3).addClass("active").siblings().removeClass("active");
+				});
+			</script>
+		</header>
+		<div id="yoga">
+			<div class="container">
+				<div class="con_box">
+
+				</div>
+			</div>
+		</div>
+		<footer>
+			<script>
+				$('footer').load('../header.html #footer');
+			</script>
+		</footer>
+	</body>
+</html>

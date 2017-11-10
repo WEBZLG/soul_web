@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>阅读</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/css/soul_read.css"/>
+		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<script>
+				$('header').load('../header.html #header',function(){
+					$(".menu").find("li").eq(1).addClass("active").siblings().removeClass("active");
+				});
+			</script>
+		</header>
+		<div id="reading">
+			<div class="container">
+				<div class="con_box">
+					<!--标题-->
+					<div class="title">
+						<h3>图书分类</h3>
+					</div>
+					<div class="horizontal_line"></div>
+					<!--图书分类+轮播图-->
+					<div class="banner clearfix">
+						<!--分类列表-->
+						<div class="ban_left book_list">
+							<ul>
+								<li>
+									<a href="../html/soul_read/read_list.html">国内图书
+										<p class="num">666</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">国外图书
+										<p class="num">666</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">成功励志
+										<p class="num">666</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">佛法经文
+										<p class="num">666</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!--轮播图-->
+						<div class="ban_right">
+							<div id="banner">
+								<div id="banner_bg"></div>
+								<!--标题背景-->
+								<div id="banner_info"></div>
+								<!--标题-->
+								<ul>
+									<li class="on">1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+								</ul>
+								<div id="banner_list">
+									<a href="#"><img src="../img/slider-1.jpg" title="" alt="" /></a>
+									<a href="#"><img src="../img/slider-2.jpg" title="" alt="" /></a>
+									<a href="#"><img src="../img/slider-3.jpg" title="" alt="" /></a>
+									<a href="#"><img src="../img/slider-4.jpg" title="" alt="" /></a>
+									<a href="#"><img src="../img/slider-5.jpg" title="" alt="" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--热读榜+精品推荐-->
+					<div class="hot_book clearfix">
+						<div class="hot_left">
+								<!--标题-->
+								<div class="title">
+									<h3>热度榜</h3>
+								</div>
+								<div class="horizontal_line"></div>
+								<div class="hot_list">
+									<ol>
+										<li class="clearfix">
+											<a href="#" class="img"><img src="../img/u=838179837,2308742294&fm=58.jpg" alt="世界简史"/></a>
+											<div class="info">
+												<em class="hot">1.</em>
+												<a href="#" class="overflow">世界简史</a>
+												<p class="overflow">【美】威廉·詹姆斯</p>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="item">
+												<em class="hot">2.</em>
+												<span class="author">
+													<a href="#" class="overflow">世界简史</a>
+													<p class="overflow">【美】威廉·詹姆斯</p>
+												</span>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="item">
+												<em class="hot">3.</em>
+												<span class="author">
+													<a href="#" class="overflow">世界简史</a>
+													<p class="overflow">【美】威廉·詹姆斯</p>
+												</span>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="item">
+												<em class="hot">4.</em>
+												<span class="author">
+													<a href="#" class="overflow">世界简史</a>
+													<p class="overflow">【美】威廉·詹姆斯</p>
+												</span>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="item">
+												<em class="hot">5.</em>
+												<span class="author">
+													<a href="#" class="overflow">世界简史</a>
+													<p class="overflow">【美】威廉·詹姆斯</p>
+												</span>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="item">
+												<em class="hot">6.</em>
+												<span class="author">
+													<a href="#" class="overflow">世界简史</a>
+													<p class="overflow">【美】威廉·詹姆斯</p>
+												</span>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="item">
+												<em class="hot">7.</em>
+												<span class="author">
+													<a href="#" class="overflow">世界简史</a>
+													<p class="overflow">【美】威廉·詹姆斯</p>
+												</span>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="item">
+												<em class="hot">8.</em>
+												<span class="author">
+													<a href="#" class="overflow">世界简史</a>
+													<p class="overflow">【美】威廉·詹姆斯</p>
+												</span>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="item">
+												<em class="hot">9.</em>
+												<span class="author">
+													<a href="#" class="overflow">世界简史</a>
+													<p class="overflow">【美】威廉·詹姆斯</p>
+												</span>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="item">
+												<em class="hot">10.</em>
+												<span class="author">
+													<a href="#" class="overflow">世界简史</a>
+													<p class="overflow">【美】威廉·詹姆斯</p>
+												</span>
+											</div>
+										</li>
+									</ol>
+								</div>
+						</div>
+						<div class="hot_right">
+							<!--标题-->
+							<div class="title">
+								<h3>精品推荐</h3>
+							</div>
+							<div class="horizontal_line"></div>
+							<div class="books">
+								<ul class="clearfix">
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="item">
+											<span class="img"><img src="../img/66wUWui7jFVdJe.jpg" alt="火星崛起"/></span>
+											<h6>火星崛起（共三册）</h6>
+											<p>【美】皮尔斯·布朗</p>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<script>
+				$('footer').load('../header.html #footer');
+			</script>
+		</footer>
+		<script src="../js/banner.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

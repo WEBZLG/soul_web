@@ -1,0 +1,171 @@
+/*歌单*/
+
+.music_list .img {
+	display: block;
+	height: 220px;
+	width: 220px;
+}
+
+.music_list .img img {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.music_list .list_con {
+	width: 1225px;
+}
+
+.music_list li {
+	margin-top: 15px;
+	float: left;
+	width: 220px;
+	position: relative;
+	margin-right: 25px;
+}
+
+.music_list li .cover {
+	position: relative;
+}
+
+.music_list .listener {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	background: url(http://image.kuwo.cn/website/pc/splice.png) repeat-x;
+	color: #fff;
+}
+
+.music_list .listener em {
+	float: left;
+	background: url(http://image.kuwo.cn/website/pc/icon.png) no-repeat -230px -44px;
+	padding-left: 20px;
+	margin: 30px 0 0 10px;
+	display: inline;
+	-moz-text-shadow: 1px 1px 0 #000;
+	-webkit-text-shadow: 1px 1px 0 #000;
+	text-shadow: 1px 1px 0 #000;
+	font-style: normal;
+}
+
+.music_list .name {
+	line-height: 40px;
+}
+
+.music_list .player {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: url(http://image.kuwo.cn/website/pc/icon.png) -242px -163px;
+	top: 180px;
+	right: 11px;
+	cursor: pointer;
+	display: none;
+}
+
+.music_list .cover:hover .player {
+	display: block;
+}
+
+
+/*歌手*/
+.singer_list{
+	margin-bottom: 25px;
+}
+.singer_list .padding_box{
+	padding: 15px;
+	position: relative;
+}
+.singer_list .img {
+	width: 220px;
+	height: 360px;
+	position: relative;
+}
+
+.singer_list .img .num {
+	height: 20px;
+	float: left;
+	margin-top: 1px;
+	display: inline;
+	background: url(http://image.kuwo.cn/website/pc/icon.png) no-repeat;
+	padding-left: 20px;
+	background-position: -103px 0px;
+}
+.singer_list>ul{
+	width: 1225px;
+}
+.singer_list>ul>li {
+	float: left;
+	width: 220px;
+	height: 360px;
+	position: relative;
+	margin: 15px 25px 0 0;
+}
+.singer_list>ul>li:hover .song_list{
+	display: block;
+}
+.singer_list>ul>li:hover .message{
+	display: none;
+}
+.singer_list .message {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.singer_list .message p {
+	color: #fff;
+	padding: 4px 10px
+}
+
+.singer_list .song_list {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	height: 360px;
+	width: 220px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.singer_list .song_list .view_more{
+    color: #fff;
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+.singer_list .index{
+	float: left;
+}
+.singer_list .song_name{
+	    float: left;
+    width: 178px;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.padding_box>ul>li{
+    margin: 12px 0px;
+}
+.play_all {
+	padding: 15px;
+}
+.play_all a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	height: 24px;
+	line-height: 24px;
+	border:2px solid #fff;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}

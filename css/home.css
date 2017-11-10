@@ -1,0 +1,14 @@
+body{
+	overflow: hidden;
+}
+#home{
+	position: relative;
+}
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -126px;
+	color: rgb(45, 213, 104);
+}
+

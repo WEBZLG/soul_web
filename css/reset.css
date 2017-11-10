@@ -1,0 +1,46 @@
+
+/*----重置样式-------*/
+
+body,p,ul,ol,dl,dt,dd,input,h1,h2,h3,h4,h5,h6,table,form,li,a,fieldset{
+	margin:0;
+	padding:0
+}
+
+body{font:14px "微软雅黑","仿宋";}
+body {
+    padding-right:0!important;
+}
+li{list-style:none;}
+a{text-decoration:none !important;}
+.left{float:left !important;}
+.right{float:right;}
+input,img{
+	border:none;
+	outline:none;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.clearfix:after {
+	clear: both;
+}
+/**/
+.iconfont,address,cite,dfn,em,i,var{font-style:normal}
+a,html{color:#666}
+.btn::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+border: none;
+}
+
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>音乐列表</title>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/css/soul_music/music_list.css"/>
+		<script src="../../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<script>
+				$('header').load('../../header.html #header',function(){
+					$(".menu").find("li").eq(2).addClass("active").siblings().removeClass("active");
+				});
+			</script>
+		</header>
+		<div id="music_list">
+			<div class="container">
+				<div class="con_box">
+					<!--路径导航-->
+					<div class="navigation">
+						<ul class="clearfix">
+							<li><a href="../soul_music.html">音乐首页</a></li>
+							<li class="line">></li>
+							<li>最新网络单曲</li>
+						</ul>
+					</div>
+					<!--标题-->
+					<div class="title">
+						<h3>精选歌单</h3>
+					</div>
+					<div class="horizontal_line"></div>
+					<div class="play_list clearfix">
+						<div class="type_list left">
+							<ul>
+								<li class="clearfix">
+									<span class="row active"></span>
+									<span  class="img clicked left"><img src="../../img/1461561991794_.jpg"/></span>
+									<span  class="title clicked left">最新单曲</span>
+								</li>
+								<li class="clearfix">
+									<span class="row"></span>
+									<span  class="img clicked left"><img src="../../img/1461561991794_.jpg"/></span>
+									<span  class="title clicked left">最新单曲</span>
+								</li>
+								<li class="clearfix">
+									<span class="row"></span>
+									<span  class="img clicked left"><img src="../../img/1461561991794_.jpg"/></span>
+									<span  class="title clicked left">最新单曲</span>
+								</li>
+							</ul>
+						</div>
+						<div class="song_list left">
+							<div class="list_top clearfix">
+								<div class="play_all left"><span></span>播放全部</div>
+								<div class="add left"><span></span>添加</div>
+							</div>
+							<div class="list_content">
+								<table border="0"  class="table">
+									<thead>
+										<tr>
+											<th>序号</th>
+											<th>歌曲</th>
+											<th>歌手</th>
+											<th>热度</th>
+											<th>时长</th>
+											<th>操作</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>流行</td>
+											<td>李宇春</td>
+											<td>
+												<ul class="clearfix">
+													<li class="hot_dot"></li>
+													<li class="hot_dot"></li>
+													<li class="hot_dot"></li>
+													<li class="hot_dot"></li>
+													<li></li>
+												</ul>
+											</td>
+											<td>03：17</td>
+											<td><button>播放</button></td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>流行</td>
+											<td>李宇春</td>
+											<td>
+												<ul>
+													<li></li>
+													<li></li>
+													<li></li>
+													<li></li>
+													<li></li>
+												</ul>
+											</td>
+											<td>03：17</td>
+											<td><button>播放</button></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../../js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

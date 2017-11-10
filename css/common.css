@@ -1,0 +1,225 @@
+body {
+	overflow-x: hidden;
+	background-color: rgb(255, 240, 254);
+}
+
+a {
+	color: #613f23;
+}
+
+a:hover {
+	color: #fa7a20;
+}
+
+p {
+	color: #afa298;
+}
+
+
+/*表格样式*/
+
+.table {
+	display: table;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.table th {
+	padding: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	background-color: #f2f2f6;
+}
+
+.table tr td {
+	padding: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.table tr:nth-last-of-type(odd) {
+	background-color: #f2f2f6;
+}
+
+.table tbody tr:hover {
+	color: #fff;
+	background-color: #28DEAC;
+}
+
+.con_box {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.overflow {
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+
+/*绿竖线*/
+
+.row.active {
+	display: block;
+	height: 30px;
+	border: 1px solid #28d2ac;
+	width: 0;
+	position: absolute;
+	left: 0;
+	top: 20px;
+}
+
+
+/*黄线*/
+
+.horizontal_line {
+	border-top: 2px solid #ffa500;
+	padding-bottom: 15px;
+}
+
+
+/*导航*/
+
+.menu_nav>li {
+	float: left;
+	width: 8%;
+	text-align: center;
+}
+
+.menu_nav>li>a {
+	display: block;
+	padding: 12px;
+	color: #fff;
+}
+
+.menu_nav>li>a:hover {
+	background-color: #38ecc3;
+}
+
+.menu_nav>li.active {
+	background-color: #38ecc3;
+}
+
+nav {
+	position: relative;
+	width: 100%;
+	z-index: 999;
+	background-color: #28D2AC;
+}
+
+.menu {
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 200px;
+}
+
+.dropdown-menu {
+	border: 0;
+	top: 96%;
+	border-radius: 0;
+	background-color: #38ecc3;
+}
+
+.dropdown-menu>li>a {
+	color: #fff;
+}
+
+.dropdown-menu>li>a:hover {
+	background-color: #fff;
+}
+
+
+/*导航结束*/
+
+
+/*尾部*/
+
+#footer {
+	height: 42px;
+	text-align: center;
+	color: #FFF;
+	background-color: #28D2AC;
+}
+
+
+/*标题*/
+
+.title {
+	padding: 10px 0;
+	/*border-bottom: 2px solid #ffa500;*/
+	/*margin-bottom: 10px;*/
+}
+
+.title h3 {
+	padding: 0 10px;
+}
+
+
+/*路径导航*/
+
+.navigation {
+	padding: 10px 0;
+}
+
+.navigation ul>li {
+	color: #ff9e9e;
+	float: left;
+	padding-right: 6px;
+}
+
+.navigation ul>li a {
+	color: #28D2AC;
+}
+
+.navigation ul>li.line {
+	color: #ffa500;
+}
+
+
+/*搜索框*/
+
+.search {
+	padding: 15px 0;
+}
+
+.search .search_con {
+	float: right;
+}
+
+.search input {
+	height: 26px;
+	width: 200px;
+	line-height: 26px;
+	border-radius: 4px;
+	font-size: 12px;
+	text-indent: 4px;
+	border: 1px solid #28d2ac;
+}
+
+.search input.active {
+	box-shadow: 0px 0px 5px 0px #9bf0dd;
+}
+
+.search button {
+	border: none;
+	outline: none;
+	background-color: #28deac;
+	color: #fff;
+	height: 28px;
+	vertical-align: middle;
+	border-radius: 4px;
+	line-height: 28px;
+	font-size: 12px;
+	width: 42px;
+}
+
+.search button:active {
+	opacity: 0.8;
+}
