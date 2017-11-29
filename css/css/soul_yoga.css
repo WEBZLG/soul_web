@@ -1,0 +1,13 @@
+.class_list img{
+	width: 100%;
+}
+.left_img{
+	width: 800px;
+	height: 254px;
+	overflow: hidden;
+}
+.right_img{
+	width: 398px;
+	height: 254px;
+	overflow: hidden;
+}

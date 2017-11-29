@@ -1,7 +1,6 @@
 body {
 	overflow-x: hidden;
-	/*background-color: rgb(255, 240, 254);*/
-	background-color: rgb(204, 232, 207);
+	background-color: rgb(235, 255, 237)
 }
 
 a {
@@ -9,7 +8,7 @@ a {
 }
 
 a:hover {
-	color: #fa7a20;
+	color: #28d2ac;
 }
 
 p {
@@ -32,7 +31,7 @@ p {
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	background-color: #f2f2f6;
+	background-color: #d4ffec;
 }
 
 .table tr td {
@@ -43,7 +42,7 @@ p {
 }
 
 .table tr:nth-last-of-type(odd) {
-	background-color: #f2f2f6;
+	background-color: #d4ffec;
 }
 
 .table tbody tr:hover {
@@ -77,7 +76,7 @@ p {
 	border: 1px solid #28d2ac;
 	width: 0;
 	position: absolute;
-	left: 0;
+	left: 4px;
 	top: 20px;
 }
 
@@ -85,7 +84,7 @@ p {
 /*黄线*/
 
 .horizontal_line {
-	border-top: 2px solid #ffa500;
+	border-top: 2px solid #28d2ac;
 	padding-bottom: 15px;
 }
 
@@ -174,7 +173,7 @@ nav {
 }
 
 .navigation ul>li {
-	color: #ff9e9e;
+	color: #06bb99;
 	float: left;
 	padding-right: 6px;
 }
@@ -184,7 +183,7 @@ nav {
 }
 
 .navigation ul>li.line {
-	color: #ffa500;
+	color: #4ca6a2;
 }
 
 

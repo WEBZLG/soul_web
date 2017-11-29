@@ -8,13 +8,13 @@
 
 .book_list>ul>li {
 	width: 100%;
-	background-color: #ffd5d5;
+	background-color: #d7d5ff;
 	text-align: center;
 	padding: 20px 0;
 }
 
 .book_list>ul>li:nth-of-type(even) {
-	background-color: #ffe7e7;
+	background-color: #ececec;
 }
 
 .book_list>ul>li a {
@@ -124,11 +124,11 @@
 	width: 100%;
 	position: relative;
 	padding: 13px 0;
-	background-color: #ffd5d5;
+	background-color: #ececec;
 }
 
 .hot_left .hot_list li:nth-last-of-type(even) {
-	background-color: #ffe7e7;
+	background-color: #d7d5ff;
 }
 
 .hot_left .hot_list .img {
